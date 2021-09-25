@@ -1,0 +1,6 @@
+.main{
+    width: 40%;    
+    flex-flow: column nowrap;
+    margin-left: 30%;
+}
+
