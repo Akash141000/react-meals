@@ -1,0 +1,11 @@
+.formInput label{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem;
+}
+
+.formInput input{
+    font-size: 1.3rem;
+    width: 3.3rem;
+    padding: 0.25rem;
+}

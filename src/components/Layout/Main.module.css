@@ -1,6 +1,8 @@
 .main{
-    width: 40%;    
+    width: 100%;
+    display: flex;
     flex-flow: column nowrap;
-    margin-left: 30%;
+    justify-content: center;
+    align-items: center;
 }
 

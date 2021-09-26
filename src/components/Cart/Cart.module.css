@@ -1,0 +1,40 @@
+*{
+   box-sizing: border-box;
+}
+
+.cartButtons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 0.5rem;
+}
+
+.cartButtons button{
+    margin: 0.25rem 0.25rem;
+    padding: 0.5rem 0.5rem;
+    background-color:saddlebrown;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.cartButtons button:hover{
+    background-color: black;
+}
+
+
+
+.total{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.price{
+    margin: 1rem;
+    margin-left: 10rem;
+    color: brown;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
