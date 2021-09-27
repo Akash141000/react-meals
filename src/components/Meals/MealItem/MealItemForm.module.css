@@ -1,10 +1,12 @@
 .btn{
+    margin-top: 0.5rem;
     padding: 0.25rem 0.5rem;
     border-radius: 2rem;
     color: white;
     background-color: brown;
     font-size: 1rem;
     cursor: pointer;
+    align-self: flex-end;
 }
 
 .form{

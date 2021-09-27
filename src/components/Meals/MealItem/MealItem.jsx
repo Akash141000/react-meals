@@ -10,20 +10,24 @@ const MealItem = (props) => {
     cartCtx.addItem({
       id: props.id,
       name: props.name,
-      amount: props.price,
+      price: props.price,
+      quantity: amount,
     });
   };
 
   return (
-    <li className={styles.item}>
-      <div>
-        <div className={styles.title}>{props.name}</div>
-        <div className={styles.description}>{props.description}</div>
-        <div className={styles.price}>{price}</div>
+    <li style={{"padding":"0.5rem"}}>
+      <div className={styles.item}>
+        <div>
+          <div className={styles.title}>{props.name}</div>
+          <div className={styles.description}>{props.description}</div>
+          <div className={styles.price}>{price}</div>
+        </div>
+        <div>
+          <MealItemForm onAddToCart={addToCartHandler}></MealItemForm>
+        </div>
       </div>
-      <div>
-        <MealItemForm onAddToCart={addToCartHandler}></MealItemForm>
-      </div>
+      <hr/>
     </li>
   );
 };

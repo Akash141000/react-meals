@@ -24,8 +24,8 @@ const DUMMY_MEALS = [
 
 const AvailableMeals = () => {
   return (
-    <section>
-      <Card>
+    <section style={{"overflow":"scroll","height":"25rem"}}>
+      <Card >
       <ul style={{ "listStyle": "none" }}>
         {DUMMY_MEALS.map((meal) => (
           <MealItem

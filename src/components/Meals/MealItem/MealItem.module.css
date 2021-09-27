@@ -5,6 +5,10 @@
     padding: 0.5rem 1rem;
 }
 
+.item div{
+    margin: 0.5rem;
+}
+
 .title {
   font-size: 1.7rem;
   font-weight: bold;
